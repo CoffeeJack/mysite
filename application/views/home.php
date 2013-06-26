@@ -50,7 +50,7 @@ $(function(){
         "type":"default",
         "text":"<p>It's my life...it's now or never...</p>",
         "asset": {
-            "media":"http://www.xperiax10.net/wp-content/gallery/cinema_x10/cylon-droid-wp.jpg",
+            "media":"http://onlyhdwallpapers.com/wallpaper/battlestar_galactica_cylon_centurion_desktop_1022x747_hd-wallpaper-816171.jpg",
             "credit":"Watch Battlestar Galactica!!"
             // "caption":"<h3>I am a Cylon</h3>"
         },
@@ -66,6 +66,20 @@ $(function(){
                     "media":"http://ubcecess.com/wp-content/uploads/2012/08/cover-photo1.jpg",
                     "thumbnail":"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/276736_213915565410137_644492110_q.jpg",
                     "credit":"This is obviously not me"
+                    // "caption":"=P"
+                }
+            },
+            {
+                "startDate":"2012,05,01",
+                "endDate":"2012,09,01",
+                "headline":"Vivospace",
+                "text":"A health-driven social network",
+                // "tag":"This is Optional",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"https://www.vivospace.com/img/logo.png",
+                    "thumbnail":"http://www.openvl.org.uk/Images/Magic.png",
+                    "credit":"www.vivospace.com"
                     // "caption":"=P"
                 }
             }
