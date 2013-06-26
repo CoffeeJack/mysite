@@ -1,9 +1,13 @@
 <!-- css -->
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+<link href="<?php echo base_url(); ?>css/styles.css" rel="stylesheet">
+
 
 <!-- js -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="http://timeline.verite.co/lib/timeline/js/storyjs-embed.js"></script>
+<script src="<?php echo base_url(); ?>js/moment.min.js"></script>
 
 <head>
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -30,7 +34,62 @@
 </div>
 </head>
 <body>
-	<img src="http://kaltrading.com/newsite/wp-content/uploads/2013/03/red_coming_soon_stamp.png" style="margin-top: 10%;display: block;
-margin-left: auto;
-margin-right: auto;">
+
+  <div id="timeline"></div>
+	<!-- <img class="center" src="http://kaltrading.com/newsite/wp-content/uploads/2013/03/red_coming_soon_stamp.png" style=""> -->
 </body>
+
+<script>
+$(function(){
+    var today = new Date();
+
+    var data = {
+    "timeline":
+    {
+        "headline":"The Life of Vinny",
+        "type":"default",
+        "text":"<p>It's my life...it's now or never...</p>",
+        "asset": {
+            "media":"http://www.xperiax10.net/wp-content/gallery/cinema_x10/cylon-droid-wp.jpg",
+            "credit":"Watch Battlestar Galactica!!"
+            // "caption":"<h3>I am a Cylon</h3>"
+        },
+        "date": [
+            {
+                "startDate":"2009,09,01",
+                "endDate":"2013,06,01",
+                "headline":"University of British Columbia",
+                "text":"Bachelor of Applied Science<br>Computer Engineering",
+                // "tag":"This is Optional",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://ubcecess.com/wp-content/uploads/2012/08/cover-photo1.jpg",
+                    "thumbnail":"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/276736_213915565410137_644492110_q.jpg",
+                    "credit":"This is obviously not me"
+                    // "caption":"=P"
+                }
+            }
+        ],
+        "era": [
+            {
+                "startDate":"2011,12,10",
+                "endDate":today.getYear()+","+(today.getMonth()+1)+","+today.getDate(),
+                "headline":"Headline Goes Here",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"This is Optional"
+            }
+
+        ]
+    }
+};
+
+  createStoryJS({
+        type:       'timeline',
+        width:      '100%',
+        height:     'auto',
+        source:     data,
+        embed_id:   'timeline'
+  });
+
+});
+</script>
