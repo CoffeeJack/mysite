@@ -50,7 +50,7 @@ $(function(){
         "type":"default",
         "text":"<ul><li>Email: ubcvincenttsui@gmail.com</li><li>Linkedin: http://ca.linkedin.com/pub/dir/Vince/Tsui</ul>",
         "asset": {
-            "media":"http://onlyhdwallpapers.com/wallpaper/battlestar_galactica_cylon_centurion_desktop_1022x747_hd-wallpaper-816171.jpg",
+            "media":"http://media.battlestarwiki.org/images/f/f0/Cylon_Centurion,_%22The_Hub%22.jpg",
             "credit":"Watch Battlestar Galactica!!"
             // "caption":"<h3>I am a Cylon</h3>"
         },
