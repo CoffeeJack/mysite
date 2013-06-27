@@ -10,6 +10,7 @@
 <script src="<?php echo base_url(); ?>js/moment.min.js"></script>
 
 <head>
+<title>Vince Tsui - Web/Mobile Dev</title>
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
