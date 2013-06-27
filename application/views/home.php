@@ -23,10 +23,10 @@
       <div class="nav-collapse collapse">
         <ul class="nav">
           <li class="">
-            <a href="#">Home</a>
+            <a href="#">About</a>
           </li>
           <li class="">
-            <a href="#">Projects</a>
+            <a href="#">Web Projects</a>
           </li>
         </ul>
       </div>
