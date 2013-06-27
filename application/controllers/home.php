@@ -6,6 +6,7 @@ class Home extends CI_Controller {
 	{
 		// $this->template->add_js(base_url()."libraries/ubertable.js");
 		$this->load->helper('url');
+		
 		$this->load->view('home');
 	}
 }

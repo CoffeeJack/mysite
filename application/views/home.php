@@ -48,7 +48,7 @@ $(function(){
     {
         "headline":"The Life of Vinny",
         "type":"default",
-        "text":"<p>It's my life...it's now or never...</p>",
+        "text":"<ul><li>Email: ubcvincenttsui@gmail.com</li><li>Linkedin: http://ca.linkedin.com/pub/dir/Vince/Tsui</ul>",
         "asset": {
             "media":"http://onlyhdwallpapers.com/wallpaper/battlestar_galactica_cylon_centurion_desktop_1022x747_hd-wallpaper-816171.jpg",
             "credit":"Watch Battlestar Galactica!!"
@@ -108,7 +108,7 @@ $(function(){
                 "asset": {
                     "media":"http://g2.img-dpreview.com/84F441AFF34F4A0BA5E14FF972B1B917.jpg",
                     "thumbnail":"<?php echo base_url(); ?>img/jrp.png",
-                    "credit":"https://www.bchydro.com/powersmart.html"
+                    "credit":"http://www.jrp-group.com/en/"
                     // "caption":"=P"
                 }
             }
