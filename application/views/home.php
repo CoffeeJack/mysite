@@ -74,7 +74,7 @@ $(function(){
                 "endDate":"2012,09,01",
                 "headline":"Vivospace",
                 "text":
-                "<ul class='ul-list'><li>Health-oriented social network</li><li>Model, View, Controller Design</li><li>PHP Code Igniter</li></ul>",
+                "<ul class='ul-list'><li>Health-oriented social network</li><li>JQuery/CSS</li><li>Model, View, Controller Design</li><li>PHP Code Igniter</li></ul>",
                 "tag":"Web Developer",
                 "classname":"optionaluniqueclassnamecanbeaddedhere",
                 "asset": {
@@ -111,11 +111,67 @@ $(function(){
                     "credit":"http://www.jrp-group.com/en/"
                     // "caption":"=P"
                 }
+            },
+            {
+                "startDate":"2012,01,01",
+                "endDate":"2012,04,01",
+                "headline":"Open GL",
+                "text":"C++ GLUT",
+                // "tag":"Graphics Design",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://www.youtube.com/watch?v=MOBCsdmWE_c",
+                    "thumbnail":"https://lh6.ggpht.com/AtIt8ZrcLD8hudtykUPJI6i6QQQpAr54H2Y-kYpwRDDn2z8y1P5yB_PTSuL75b6yW9o=w78-h78",
+                    "credit":"Music: Evanescence - Bring me to life"
+                    // "caption":"=P"
+                }
+            },
+            {
+                "startDate":"2012,09,01",
+                "endDate":"2012,12,01",
+                "headline":"Facebook Web/Mobile App",
+                "text":"<ul class='ul-list'><li>Facebook PHP SDK</li><li>JQuery/CSS</li><li>Restlet framework</li><li>https://github.com/hamo26/EECE419Group7</li></ul>",
+                "tag":"Web Developer",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://www.staples.com/sbd/cre/marketing/technology-research-centers/tablets/images/facebook.png",
+                    "thumbnail":"https://ieeetv.ieee.org/assets/images_ui/icons/facebook-app-btn.png",
+                    "credit":"https://github.com/hamo26/EECE419Group7"
+                    // "caption":"=P"
+                }
+            },
+            {
+                "startDate":"2013,05,01",
+                // "endDate":"",
+                "headline":"Procurify",
+                "text":"<ul class='ul-list'><li>Python Django</li><li>JQuery/CSS</li><li>Google App Engine/Cloud SQL</li></ul>",
+                "tag":"Web Developer",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://www.procurify.com/assets/images/homeScreens.jpg",
+                    "thumbnail":"https://si0.twimg.com/profile_images/2909929869/043b126cb1952d80ef3cc565ccfaca12.png",
+                    "credit":"www.procurify.com"
+                    // "caption":"=P"
+                }
+            },
+            {
+                "startDate":"2013,01,01",
+                "endDate":"2013,04,01",
+                "headline":"FunF Mobile Tracker",
+                "text":"<ul class='ul-list'><li>MongoDB</li><li>Android App:<br>https://github.com/CoffeeJack/EECE496</li><li>Node.js Server:<br>https://github.com/CoffeeJack/FunfToWotk</li></ul>",
+                "tag":"Mobile Developer",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://funf.org/images/slider/sneakslide.png",
+                    "thumbnail":"https://si0.twimg.com/profile_images/1574021182/funf_logo_bot_normal.png",
+                    "credit":"http://funf.org/"
+                    // "caption":"=P"
+                }
             }
         ],
         "era": [
             {
-                "startDate":"2008,01,01",
+                "startDate":"2010,01,01",
                 "endDate":today.getYear()+","+(today.getMonth()+1)+","+today.getDate(),
                 "headline":"Headline Goes Here",
                 "text":"<p>Body text goes here, some HTML is OK</p>",
