@@ -56,7 +56,7 @@ $(function(){
         },
         "date": [
             {
-                "startDate":"2009,09,01",
+                "startDate":"2007,09,01",
                 "endDate":"2013,06,01",
                 "headline":"University of British Columbia",
                 "text":"Bachelor of Applied Science<br>Computer Engineering",
@@ -73,8 +73,9 @@ $(function(){
                 "startDate":"2012,05,01",
                 "endDate":"2012,09,01",
                 "headline":"Vivospace",
-                "text":"A health-driven social network",
-                // "tag":"This is Optional",
+                "text":
+                "<ul class='ul-list'><li>Health-oriented social network</li><li>Model, View, Controller Design</li><li>PHP Code Igniter</li></ul>",
+                "tag":"Web Developer",
                 "classname":"optionaluniqueclassnamecanbeaddedhere",
                 "asset": {
                     "media":"https://www.vivospace.com/img/logo.png",
@@ -82,11 +83,39 @@ $(function(){
                     "credit":"www.vivospace.com"
                     // "caption":"=P"
                 }
+            },
+            {
+                "startDate":"2009,09,01",
+                "endDate":"2010,09,01",
+                "headline":"BC Hydro",
+                "text":"<ul class='ul-list'><li>Made energy usage accessment</li><li>Provided energy-savings recommendations to clients</li></ul>",
+                "tag":"Consultant",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://www.vsb.bc.ca/sites/default/files/images/bc-hydro-powersmart.jpg",
+                    "thumbnail":"https://si0.twimg.com/profile_images/1239504698/PowerSmartBC_Twitter_300_normal.png",
+                    "credit":"https://www.bchydro.com/powersmart.html"
+                    // "caption":"=P"
+                }
+            },
+            {
+                "startDate":"2008,05,01",
+                "endDate":"2009,01,01",
+                "headline":"Roger Preston & Partners",
+                "text":"<ul class='ul-list'><li>Electrical engineering designs for skyscrapers</li><li>ISO9001</li></ul>",
+                "tag":"Consultant",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://g2.img-dpreview.com/84F441AFF34F4A0BA5E14FF972B1B917.jpg",
+                    "thumbnail":"<?php echo base_url(); ?>img/jrp.png",
+                    "credit":"https://www.bchydro.com/powersmart.html"
+                    // "caption":"=P"
+                }
             }
         ],
         "era": [
             {
-                "startDate":"2011,12,10",
+                "startDate":"2008,01,01",
                 "endDate":today.getYear()+","+(today.getMonth()+1)+","+today.getDate(),
                 "headline":"Headline Goes Here",
                 "text":"<p>Body text goes here, some HTML is OK</p>",

@@ -4,3 +4,8 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.ul-list{
+	list-style-type:circle !important; 
+	margin-left: 20px !important;
+}
