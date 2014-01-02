@@ -60,9 +60,11 @@
                 <img src="<?php echo $base_url?>img/funf_green_logo_web.jpg" style="width:450px;">
             </div>
             <div class="col-md-6">
-                <h3>Title Here</h3>
+                <div class="feature-date">January 02, 2014</div>
+                <h3 class="feature-title">Title Here</h3>
                 <div>Awesome description of your project</div>
-                <button type="button" class="btn btn-default">Link</button>
+                <hr>
+                <button type="button" class="btn btn-default" style="margin-top: 10px;">Link</button>
             </div>
         </div>
     </div>
