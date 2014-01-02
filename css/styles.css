@@ -5,6 +5,36 @@
 	margin-right: auto;
 }
 
+.project-container{
+	margin-top:50px;
+}
+
+.featured-project-container{
+	padding:40px;
+}
+
+.featured-image-container{
+	width:50%;
+	display:inline-block;
+}
+
+.featured-content-container{
+	width:45%;
+	display:inline-block;
+	padding-left:20px;
+	vertical-align: top;
+}
+
+/*.btn{
+	border: 0px solid black;
+	color: white;
+	background-color: rgb(20, 92, 158);
+	padding: 10px;
+	display: inline;
+	border-radius: 5px;
+	cursor: pointer;
+}*/
+
 .ul-list{
 	list-style-type:circle !important; 
 	margin-left: 20px !important;
