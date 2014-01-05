@@ -15,6 +15,7 @@
 
 .feature-date{
 	color:gray;
+	margin-top: 10px;
 }
 
 body{
@@ -22,6 +23,27 @@ body{
 }
 
 div.clear { clear: both; }
+
+.image-container img{
+	width:300px;
+}
+
+.image-container img:hover{
+	height: 190;
+	width: 296;
+
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
 
 /*.btn{
 	border: 0px solid black;
@@ -47,3 +69,4 @@ hr{
     background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
 }
+
