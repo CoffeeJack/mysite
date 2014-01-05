@@ -29,8 +29,8 @@ div.clear { clear: both; }
 }
 
 .image-container img:hover{
-	height: 190;
-	width: 296;
+	height: 210;
+	width: 328;
 
 	-webkit-transform: rotate(10deg);
 	-moz-transform: rotate(10deg);
