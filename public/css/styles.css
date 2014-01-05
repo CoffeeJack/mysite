@@ -5,7 +5,68 @@
 	margin-right: auto;
 }
 
+.project-container{
+	margin-top:50px;
+}
+
+.feature-title{
+	font-weight: bold;
+}
+
+.feature-date{
+	color:gray;
+	margin-top: 10px;
+}
+
+body{
+	background-color: #e7e7e7;
+}
+
+div.clear { clear: both; }
+
+.image-container img{
+	width:300px;
+}
+
+.image-container img:hover{
+	height: 190;
+	width: 296;
+
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+
+/*.btn{
+	border: 0px solid black;
+	color: white;
+	background-color: rgb(20, 92, 158);
+	padding: 10px;
+	display: inline;
+	border-radius: 5px;
+	cursor: pointer;
+}*/
+
 .ul-list{
 	list-style-type:circle !important; 
 	margin-left: 20px !important;
 }
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
