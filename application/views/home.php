@@ -105,7 +105,7 @@
                 </div>
                 <div class="feature-date">Sep, 2007 - May, 2013</div>
                 <h4 class="feature-title">Bachelor of Applied Science</h4>
-                <div>
+                <div class="project-description-container">
                     <span class="label label-default">UBC</span>
                     <span class="label label-default">VHDL</span>
                     <span class="label label-default">C++</span>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="feature-date">Oct, 2013</div>
                 <h4 class="feature-title">JSON Serialize</h4>
-                <div>
+                <div class="project-description-container">
                     <span class="label label-default">JQuery</span>
                 </div>
                 <div class="project-description-container">
@@ -171,7 +171,7 @@
                 </div>
                 <div class="feature-date">May, 2012</div>
                 <h4 class="feature-title">Vivospace</h4>
-                <div>
+                <div class="project-description-container">
                     <span class="label label-default">Code Igniter</span>
                     <span class="label label-default">Doctrine2</span>
                     <span class="label label-default">XAMPP</span>
