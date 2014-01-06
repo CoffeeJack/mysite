@@ -24,19 +24,30 @@ body{
 
 div.clear { clear: both; }
 
-.image-container img{
-	width:300px;
+.image-container img:hover{
+
+	opacity:0.8;
+
+	-webkit-filter: grayscale(50%);
+	-moz-filter: grayscale(50%);
+	-o-filter: grayscale(50%);
+	-ms-filter: grayscale(50%);
+	filter: grayscale(50%);
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease;
 }
 
-.image-container img:hover{
-	height: 210;
-	width: 328;
-
-	-webkit-transform: rotate(10deg);
-	-moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
+.project-link{
+	/*float: right;*/
+	margin-left: 140px;
+	margin-top: -170px;
+	font-size: 7em;
+	opacity: 0;
+	color: #e7e7e7;
 
 	-webkit-transition: all 0.1s ease;
 	-moz-transition: all 0.1s ease;
@@ -53,7 +64,7 @@ div.clear { clear: both; }
 	display: inline;
 	border-radius: 5px;
 	cursor: pointer;
-}*/
+}
 
 .ul-list{
 	list-style-type:circle !important; 
