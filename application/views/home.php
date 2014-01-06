@@ -77,7 +77,10 @@
             <div class="col-md-4">
                 <div class="image-container">
                     <a href="https://github.com/CoffeeJack/jsonserialize" target="_blank">
-                        <img src="<?php echo $base_url?>img/jason-6.jpg" height="200" width="312">
+                        <img src="<?php echo $base_url?>img/jason-6.jpg" height="238" width="370">
+                    </a>
+                    <a href="https://github.com/CoffeeJack/jsonserialize" target="_blank">
+                        <span class="glyphicon glyphicon-globe project-link"></span>
                     </a>
                 </div>
                 <div class="feature-date">Oct, 2013</div>
@@ -89,7 +92,10 @@
             <div class="col-md-4">
                 <div class="image-container">
                     <a href="https://github.com/CoffeeJack/FunfToWotk" target="_blank">
-                        <img src="<?php echo $base_url?>img/charging-stations.jpg" height="200" width="312">
+                        <img src="<?php echo $base_url?>img/charging-stations.jpg" height="238" width="370">
+                    </a>
+                    <a href="https://github.com/CoffeeJack/FunfToWotk" target="_blank">
+                        <span class="glyphicon glyphicon-globe project-link"></span>
                     </a>
                 </div>
                 <div class="feature-date">May, 2013</div>
@@ -101,7 +107,10 @@
             <div class="col-md-4">
                 <div class="image-container">
                     <a href="http://www.vivospace.com" target="_blank">
-                        <img src="<?php echo $base_url?>img/mhh_healthy_girl.jpg" height="200" width="312">
+                        <img src="<?php echo $base_url?>img/mhh_healthy_girl.jpg" height="238" width="370">
+                    </a>
+                    <a href="http://www.vivospace.com" target="_blank">
+                        <span class="glyphicon glyphicon-globe project-link"></span>
                     </a>
                 </div>
                 <div class="feature-date">May, 2012</div>
@@ -120,6 +129,10 @@
 $(function(){
     var today = new Date();
 
-    
+    $(".image-container").hover(function(event){
+        $(event.currentTarget).find(".project-link").css("opacity","0.5");
+    },function(event){
+        $(event.currentTarget).find(".project-link").css("opacity","0");
+    });
 });
 </script>
