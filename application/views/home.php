@@ -25,8 +25,8 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Projects</a></li>
-        <li><a href="#">About Me</a></li>
+        <li><a href="#project-container">Projects</a></li>
+        <li class="active"><a href="#aboutme-container">About Me</a></li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -72,7 +72,53 @@
             </div>
         </div>
     </div> -->
-    <div class="container" style="padding-top:30px;">
+    <div id="aboutme-container" class="container" style="padding-top:80px;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="image-container">
+                    <iframe width="370" height="238" src="//www.youtube.com/embed/eZvmOEtqRkc" frameborder="0" allowfullscreen></iframe>
+                    <a href="http://http://www.procurify.com/" target="_blank">
+                        <span class="glyphicon glyphicon-globe project-link"></span>
+                    </a>
+                </div>
+                <div class="feature-date">May, 2013 - Present</div>
+                <h4 class="feature-title">Procurify (Web Developer)</h4>
+                <div>
+                    <span class="label label-default">Javascript</span>
+                    <span class="label label-default">JQuery</span>
+                    <span class="label label-default">CSS</span>
+                    <span class="label label-default">Python</span>
+                    <span class="label label-default">Django</span>
+                </div>
+                <div class="project-description-container">
+                    Coming-of-age cloud-based ERP system. Save company spending, easy to use, and much more...
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image-container">
+                    <a href="http://ece.ubc.ca/" target="_blank">
+                        <img src="<?php echo $base_url?>img/ECE.jpg" height="238" width="370">
+                    </a>
+                    <a href="http://ece.ubc.ca/" target="_blank">
+                        <span class="glyphicon glyphicon-globe project-link"></span>
+                    </a>
+                </div>
+                <div class="feature-date">Sep, 2007 - May, 2013</div>
+                <h4 class="feature-title">Bachelor of Applied Science</h4>
+                <div>
+                    <span class="label label-default">UBC</span>
+                    <span class="label label-default">VHDL</span>
+                    <span class="label label-default">C++</span>
+                    <span class="label label-default">Assembler</span>
+                </div>
+                <div class="project-description-container">
+                    I know such a geek right?
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="project-container" class="container" style="padding-top:30px;">
         <div class="row">
             <div class="col-md-4">
                 <div class="image-container">
@@ -86,6 +132,9 @@
                 <div class="feature-date">Oct, 2013</div>
                 <h4 class="feature-title">JSON Serialize</h4>
                 <div>
+                    <span class="label label-default">JQuery</span>
+                </div>
+                <div class="project-description-container">
                     Similar to JQuery serialize function, this JQuery plugin parses form fields into a JSON object...
                 </div>
             </div>
@@ -100,7 +149,14 @@
                 </div>
                 <div class="feature-date">May, 2013</div>
                 <h4 class="feature-title">Mobile GPS Tracker</h4>
-                <div>
+                <div class="project-description-container">
+                    <span class="label label-default">Android</span>
+                    <span class="label label-default">Node.js</span>
+                    <span class="label label-default">MongoDB</span>
+                    <span class="label label-default">Kurogo</span>
+                    <span class="label label-default">Funf</span>
+                </div>
+                <div class="project-description-container">
                     Funf mobile framework allows developers to create applications which periodically sample data from various mobile hardware...
                 </div>
             </div>
@@ -116,9 +172,34 @@
                 <div class="feature-date">May, 2012</div>
                 <h4 class="feature-title">Vivospace</h4>
                 <div>
+                    <span class="label label-default">Code Igniter</span>
+                    <span class="label label-default">Doctrine2</span>
+                    <span class="label label-default">XAMPP</span>
+                    <span class="label label-default">JQuery</span>
+                </div>
+                <div class="project-description-container">
                     Social network designed to promote good health. Log your meals, track your calories, more...
                     <br>
                     <span style="font-style:italic;">It says "certification expired" but it still works, no virus =P</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="image-container">
+                    <iframe width="370" height="238" src="//www.youtube.com/embed/MOBCsdmWE_c" frameborder="0" allowfullscreen></iframe>
+                    <!-- <a href="https://github.com/CoffeeJack/FunfToWotk" target="_blank">
+                        <span class="glyphicon glyphicon-globe project-link"></span>
+                    </a> -->
+                </div>
+                <div class="feature-date">Jan, 2012</div>
+                <h4 class="feature-title">3D Rendering</h4>
+                <div class="project-description-container">
+                    <span class="label label-default">OpenGL</span>
+                    <span class="label label-default">C++</span>
+                </div>
+                <div class="project-description-container">
+                    Custom rendorer programmed in C++, here is a video captured frame by frame...
                 </div>
             </div>
         </div>
@@ -133,6 +214,11 @@ $(function(){
         $(event.currentTarget).find(".project-link").css("opacity","0.5");
     },function(event){
         $(event.currentTarget).find(".project-link").css("opacity","0");
+    });
+
+    $(".navbar-nav li").click(function(event){
+        $(event.currentTarget).siblings().removeClass("active");
+        $(event.currentTarget).addClass("active");
     });
 });
 </script>
