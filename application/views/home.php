@@ -27,6 +27,7 @@
     <ul class="nav navbar-nav">
         <li><a href="#project-container">Projects</a></li>
         <li class="active"><a href="#aboutme-container">About Me</a></li>
+        <li><a href="javascript:;" data-toggle="modal" data-target="#contact">Contact</a></li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -54,6 +55,26 @@
 </script>
 </head>
 <body>
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myContactInfo" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myContactInfo">Contact Info</h4>
+          </div>
+          <div class="modal-body" style="text-align: center;">
+            Email: ubcvincenttsui@gmail.com
+            <br>
+            Github: <a href="https://github.com/CoffeeJack" target="_blank">Coffee Jack</a>
+            <br>
+            Bitbucket: <a href="https://bitbucket.org/coffeejack" target="_blank">Coffee Jack</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
 	<!-- <img class="center" src="http://kaltrading.com/newsite/wp-content/uploads/2013/03/red_coming_soon_stamp.png" style=""> -->
     <!-- <div class="container">
         <div class="row">
