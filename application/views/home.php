@@ -132,6 +132,7 @@
                 <div class="feature-date">Oct, 2013</div>
                 <h4 class="feature-title">JSON Serialize</h4>
                 <div class="project-description-container">
+                    <span class="label label-default">Javascript</span>
                     <span class="label label-default">JQuery</span>
                 </div>
                 <div class="project-description-container">
@@ -201,6 +202,10 @@
                 <div class="project-description-container">
                     Custom rendorer programmed in C++, here is a video captured frame by frame...
                 </div>
+            </div>
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
             </div>
         </div>
     </div>
